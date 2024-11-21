@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Graduation Survey</h1>
+        <p>Fill this survey with accurate information</p>
+        <form>
+            <!-- Personal information -->
+
+            <fieldset class="personal-info">
+                <label for="name">Student Name:</label>
+                <input type="text" placeholder="Enter your name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Enter your email" id="email" required>
+                <label for="Age">Age:</label>
+                <input type="number" placeholder="Your age" required>
+                <label for="class">Degree Obtained</label>
+                <input type="text" id="class" placeholder="Your degree">
+                <label for="select">Your Class</label>
+                <select name="dropdown" id="select">
+                    <option value="" disabled selected>Select Option</option>
+                    <option value="Banchelors degree">Banchelors degree</option>
+                    <option value="Masters degree">Masters degree</option>
+                    <option value="PhD">PhD</option>
+                </select>
+            </fieldset>
+            <!-- Optinal cases -->
+            <fieldset class="radio-option">
+                <div>
+                    <legend>Gender</legend>
+                    <input type="radio">
+                    <label for="">Male</label>
+                    <input type="radio">
+                    <label for="">Female</label>
+                    <input type="radio">
+                    <label for="">Prefer not say</label>
+                </div>
+                <div>
+                    <legend for="">Are you a foreign student?</legend>
+                    <input type="radio">
+                    <label for="" class="under">Yes</label>
+                    <input type="radio">
+                    <label for="" class="answer">No</label>
+                </div>
+            </fieldset>
+            <!-- Checkbox input cases -->
+            <div class="checkbox">
+                <legend for="">What are you immediate plans after your graduation?</legend>
+                <input type="checkbox">
+                <label for="">Post-graduate studies</label>
+                <input type="checkbox">
+                <label for="">Self-employment</label>
+                <input type="checkbox">
+                <label for="">Family Occupation</label>
+                <input type="checkbox">
+                <label for="">Employmnent in the private sector</label>
+                <input type="checkbox">
+                <label for="">Employement in the public sector</label>
+                <input type="checkbox">
+                <label for="">Part-time employment</label>
+            </div>
+            <!-- closing  -->
+            <legend for="">Any suggestion for emprovement, if necessary.</legend>
+            <textarea name="" id=""></textarea>
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
