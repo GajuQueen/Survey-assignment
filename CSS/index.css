@@ -6,30 +6,32 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background: burlywood;
+    /* background: burlywood; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-    /* height: 100vh; */
+    background-image: url('https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-building-Jg87VT4YL8c.jpeg');
+    background-size: contain;
+    background-position: center;
 }
 form{
-    width: fit-content;
+    width: 165%;
     margin: 0 auto;
     background: gray;
     border-radius: 20px;
     box-shadow: 0 5px 15px;
-    padding: 30px;
-    /* max-width: 600px */
-    
-
+    padding: 10%;
+    align-content: center;
 }
 h1,p{
     text-align: center;
 }
 .personal-info label{
     display: block;
+    padding-top: 2%;
+    
 }
 
 .checkbox label{
@@ -39,4 +41,11 @@ h1,p{
 fieldset{
     border: none;
 }
-    
+button{
+    display: block;
+    width: 30%;
+    align-items: center;
+    color: green;
+}
+
+
